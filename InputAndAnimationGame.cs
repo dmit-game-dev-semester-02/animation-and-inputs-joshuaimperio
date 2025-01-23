@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework;
+﻿using System.Runtime.ConstrainedExecution;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
@@ -6,6 +7,9 @@ namespace assignment01_animation_and_inputs;
 
 public class InputAndAnimationGame : Game
 {
+    private const int _WindowWidth = 1280;
+    private const int _WindowHeight = 720;
+    
     private GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
 
@@ -22,7 +26,9 @@ public class InputAndAnimationGame : Game
 
     protected override void Initialize()
     {
-        // TODO: Add your initialization logic here
+        _graphics.PreferredBackBufferWidth = _WindowWidth;
+        _graphics.PreferredBackBufferHeight = _WindowHeight;
+        _graphics.ApplyChanges();
 
         base.Initialize();
     }
@@ -30,8 +36,7 @@ public class InputAndAnimationGame : Game
     protected override void LoadContent()
     {
         _spriteBatch = new SpriteBatch(GraphicsDevice);
-
-        // TODO: use this.Content to load your game content here
+        _background = Content.Load<Texture2D>("PlaceholderBG"); // TODO: Replace placeholder
     }
 
     protected override void Update(GameTime gameTime)
@@ -46,9 +51,14 @@ public class InputAndAnimationGame : Game
 
     protected override void Draw(GameTime gameTime)
     {
-        GraphicsDevice.Clear(Color.CornflowerBlue);
+        GraphicsDevice.Clear(Color.Magenta);
 
-        // TODO: Add your drawing code here
+        _spriteBatch = new SpriteBatch(GraphicsDevice);
+        _spriteBatch.Begin();
+
+        _spriteBatch.Draw(_background, Vector2.Zero, Color.White);
+
+        _spriteBatch.End();
 
         base.Draw(gameTime);
     }

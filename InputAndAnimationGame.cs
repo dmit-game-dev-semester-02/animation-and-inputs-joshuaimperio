@@ -9,6 +9,10 @@ public class InputAndAnimationGame : Game
     private GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
 
+    private Texture2D _background, _bush;
+    private CelAnimationSequence _sequence01, _sequence02;
+    private CelAnimationPlayer _animation01, _animation02;
+
     public InputAndAnimationGame()
     {
         _graphics = new GraphicsDeviceManager(this);

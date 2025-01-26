@@ -25,3 +25,7 @@ C:\Users\pixel\Documents\GitHub\2025-Jan-DMIT1514-01-assignments\animation-and-i
 C:\Users\pixel\Documents\GitHub\2025-Jan-DMIT1514-01-assignments\animation-and-inputs-joshuaimperio\obj\Debug\net8.0\assignment01_animation_and_inputs.genruntimeconfig.cache
 C:\Users\pixel\Documents\GitHub\2025-Jan-DMIT1514-01-assignments\animation-and-inputs-joshuaimperio\obj\Debug\net8.0\ref\assignment01_animation_and_inputs.dll
 C:\Users\pixel\Documents\GitHub\2025-Jan-DMIT1514-01-assignments\animation-and-inputs-joshuaimperio\bin\Debug\net8.0\Content\PlaceholderBG.xnb
+C:\Users\pixel\Documents\GitHub\2025-Jan-DMIT1514-01-assignments\animation-and-inputs-joshuaimperio\bin\Debug\net8.0\Content\CharacterIdle.xnb
+C:\Users\pixel\Documents\GitHub\2025-Jan-DMIT1514-01-assignments\animation-and-inputs-joshuaimperio\bin\Debug\net8.0\Content\CharacterWalk.xnb
+C:\Users\pixel\Documents\GitHub\2025-Jan-DMIT1514-01-assignments\animation-and-inputs-joshuaimperio\bin\Debug\net8.0\Content\Flag.xnb
+C:\Users\pixel\Documents\GitHub\2025-Jan-DMIT1514-01-assignments\animation-and-inputs-joshuaimperio\bin\Debug\net8.0\Content\SnowBG.xnb

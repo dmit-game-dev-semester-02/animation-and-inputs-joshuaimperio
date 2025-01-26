@@ -4,9 +4,17 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
+    <File>C:/Users/pixel/Documents/GitHub/2025-Jan-DMIT1514-01-assignments/animation-and-inputs-joshuaimperio/Content/CharacterIdle.png</File>
+    <File>C:/Users/pixel/Documents/GitHub/2025-Jan-DMIT1514-01-assignments/animation-and-inputs-joshuaimperio/Content/CharacterWalk.png</File>
+    <File>C:/Users/pixel/Documents/GitHub/2025-Jan-DMIT1514-01-assignments/animation-and-inputs-joshuaimperio/Content/Flag.png</File>
     <File>C:/Users/pixel/Documents/GitHub/2025-Jan-DMIT1514-01-assignments/animation-and-inputs-joshuaimperio/Content/PlaceholderBG.png</File>
+    <File>C:/Users/pixel/Documents/GitHub/2025-Jan-DMIT1514-01-assignments/animation-and-inputs-joshuaimperio/Content/SnowBG.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>
 </SourceFileCollection>

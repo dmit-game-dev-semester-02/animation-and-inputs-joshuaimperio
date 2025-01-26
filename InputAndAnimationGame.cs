@@ -93,6 +93,16 @@ public class InputAndAnimationGame : Game
             _walking = false;
         }
 
+        // Player screen wraparound
+        if(_playerX < -256)
+        {
+            _playerX = 1280;
+        }
+        if(_playerX > 1280)
+        {
+            _playerX = -256;
+        }
+
         _flagAnimation.Update(gameTime);
         _playerAnimationIdle.Update(gameTime);
         _playerAnimationWalk.Update(gameTime);
